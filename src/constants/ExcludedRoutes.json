@@ -1,0 +1,10 @@
+{
+  "authMiddleware": {
+    "GET": [
+      "/api/v1"
+    ],
+    "POST": [
+      "/api/v1/auth/login"
+    ]
+  }
+}

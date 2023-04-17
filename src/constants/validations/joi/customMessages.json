@@ -1,0 +1,54 @@
+{
+  "defaultCustomMessages": {
+    "any.empty": "{{#key}} cannot be empty",
+    "string.required": "{{#key}} is required and must be a string",
+    "string.base": "{{#key}} must be a string",
+    "boolean.base": "{{#key}} must be a boolean",
+    "boolean.required": "{{#key}} is required and must be a boolean",
+    "number.base": "{{#key}} must be a number",
+    "object.base": "{{#key}} must be an object",
+    "array.base": "{{#key}} must be an array",
+    "array.required": "{{#key}} is required and must be an array",
+    "array.includesRequiredUnknowns": "At least one element in {{#key}} is required",
+    "string.email": "{{#key}} must be a valid email",
+    "string.min": "{{#key}} must be at least {{#limit}} characters",
+    "string.max": "{{#key}} must be at most {{#limit}} characters",
+    "string.pattern.base": "{{#key}} must be a valid {{#regex}}",
+    "number.min": "{{#key}} must be at least {{#limit}}",
+    "number.max": "{{#key}} must be at most {{#limit}}",
+    "object.required": "{{#key}} is required and must be an object containing {{#keys}}",
+    "object.min": "{{#key}} must have at least {{#limit}} keys",
+    "object.max": "{{#key}} must have at most {{#limit}} keys",
+    "array.min": "{{#key}} must have at least {{#limit}} items",
+    "array.max": "{{#key}} must have at most {{#limit}} items",
+    "any.only": "{{#key}} must be one of {{#valids}}",
+    "array.includes": "{{#label}} must include {{#key}}",
+    "any.unknown": "{{#key}} is not allowed",
+    "any.required": "{{#key}} is required",
+    "string.empty": "{{#key}} cannot be empty",
+    "any.custom": "{{#key}} is invalid"
+  },
+  "customEmailMessages": {
+    "string.email": "email is not valid",
+    "string.empty": "email is required",
+    "any.required": "email is required"
+  },
+  "customNameMessages": {
+    "any.required": "name is required and must be an object with first and last (optional) name",
+    "object.base": "name must be an Object of first and last (optional) names",
+    "any.invalid": "name must be an object with first and last (optional) name"
+  },
+  "customContactInfoMessages": {
+    "any.required": "contact_info is required and must be an object containing email, office_phone_number, cell_phone_number and fax_number",
+    "object.base": "contact_info must be an Object of email, office_phone_number, cell_phone_number and fax_number"
+  },
+  "customOfficePhoneNumberMessages": {
+    "string.base": "office_phone_number must be a string",
+    "string.empty": "office_phone_number cannot be empty",
+    "string.min": "office_phone_number must have a minimum length of {#limit}",
+    "any.required": "Office phone number is required"
+  },
+  "customObjectIdMessages": {
+    "any.custom": "object_id must be a 24 digit hex string"
+  }
+}
